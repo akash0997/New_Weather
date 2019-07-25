@@ -27,5 +27,5 @@ class Ezw_API(Resource):
 
 api.add_resource(Ezw_API, '/ezw_api')
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(host='0.0.0.0',debug=False)
 
